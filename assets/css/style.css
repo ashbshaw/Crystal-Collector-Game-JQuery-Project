@@ -5,16 +5,14 @@ body {
 
 .header {
     margin: 10px;
-    padding: 10px;
-    width: 350px;
+    padding: 20px 10px 20px 10px;
+    width: 400px;
     text-align: center;
     background-color: rgb(175, 86, 13);
+    color: white;
+    font-size: 46px;
 }
 
-h1 {
-    color: white;
-    font-size: 38px;
-}
 
 h2 {
     color: purple;
@@ -38,14 +36,14 @@ p {
 
 .instructions {
     margin: 10px;
-    padding: 10px;
+    padding: 20px 10px 20px 10px;
     width: 700px;
     background-color: rgb(233, 222, 161);
 }
 
 .numberToMatch {
     margin: 10px;
-    padding: 10px;
+    padding: 25px 10px 0px 10px;
     width: 200px;
     height: 75px;
     background-color: green;
@@ -53,15 +51,21 @@ p {
 
 .winsAndLosses {
     margin: 10px;
-    padding: 10px;
+    padding: 20px 10px 5px 10px;
     height: 75px;
     width: 150px;
     background-color: rgb(124, 205, 211);
 }
 
-.numberToMatch, .winsAndLosses {
+.numberToMatch {
     float: left;
-    width: 15%;
+    width: 200px;
+    height: 60px;
+}
+
+.winsAndLosses {
+    float: left;
+    width: 100px;
     height: 60px;
 }
 
@@ -78,7 +82,8 @@ p {
 
 .totalScore {
     margin: 10px;
-    padding: 1px 10px 1px 10px;
+    padding: 10px 10px 0px 10px;
+    height: 30px;
     width: 350px;
     background-color: rgb(36, 110, 110)
 }
@@ -86,6 +91,7 @@ p {
 .userTotal {
     margin: 10px;
     padding: 10px;
+    height: 100px;
     width: 350px;
     background-color: rgb(36, 110, 110) 
 }
