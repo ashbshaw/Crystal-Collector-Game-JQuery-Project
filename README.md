@@ -1,4 +1,4 @@
-# Crystal-Collector
+# Crystal-Collector-Game
 
 This is an interactive game using JavaScript and jQuery. It was our first assignment involving JQuery. 
 
